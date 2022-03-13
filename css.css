@@ -1,0 +1,523 @@
+
+/* trang 1 */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 0 3rem 0 3rem;
+}
+a{
+    text-decoration: none;
+}
+/* phần đầu */
+.header{
+    display: flex;
+}
+.header .img:first-child{
+    padding: 15px 150px;
+}
+.header .img img{
+    margin: 0 10px;
+}
+.head1{
+    margin: 1rem;
+    padding: 0.5rem;
+    font-size: 1.25rem;
+    color: green;
+    border: 2px solid #41B145;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn1{
+    background-color: orange;
+    display: inline-block;
+    margin: 10px 0;
+    padding: 5px;
+}
+.btn .img2{
+    margin-left: 10px;
+}
+.btn1 a{
+    color: aliceblue;
+
+}
+.btn1:hover{
+    background-color: #41B145;
+}
+/* phần menu điều hướng */
+nav{
+    background-color: #41B145;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 40px;
+}
+
+ul li{
+    padding: 10px 20px;
+}
+ul li:hover{
+    background-color:#348e37 ;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+.row{
+    display: flex;
+}
+.col2{
+    margin: 5px;
+    margin-left: 150px;
+}
+.col2 input{
+    padding: 5px 30px;
+}
+/* phần banner */
+.img3 img{
+    width: 100%;
+}
+/* item */
+.container2{
+    margin: 20px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.container2 .item{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #41B145;
+
+}
+.item .content1{
+    background-color: #41B145;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    color: aliceblue;
+}
+.item .content1 a{
+    color: aliceblue;
+}
+.item .content2{
+    padding: 10px ;
+}
+.item .content2{
+    position: relative;
+}
+.item .content2 p{
+    position: absolute;
+    bottom: 0.9rem;
+    margin: 0 auto;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-right: 7px;
+}
+
+.item .content2 img:hover{
+    opacity: 0.8;
+}
+/* item2 */
+.item2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #41B145;
+    margin: 20px 40px;
+}
+.item2 img{
+    width: 100%;
+}
+.item2 .content1{
+    background-color: #41B145;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    color: aliceblue;
+}
+.item2 .content1 a{
+    color: aliceblue;
+}
+/* tin tức, câu hỏi */
+.w-50{
+    width: 50%;
+}
+.container3{
+    margin: 20px 40px;
+    display: flex;
+}
+/* tin tức */
+.tintuc .content1{
+    background-color: #41B145;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    color: aliceblue;
+}
+.tintuc .content2{
+    display: flex;
+    margin: 20px;
+}
+.w-10{
+    width: 10%;
+}
+.w-80{
+    width: 80%;
+}
+.tintuc .content2 .date{
+    background-color: #39464f;
+    padding: 30px 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    border-radius: 100%;
+}
+.tintuc .content2 .text{
+    padding:0 20px;
+    font-size: 20px;
+    color: #616161;
+}
+.tintuc .content2 .text a{
+    color: #616161;
+}
+.tintuc .content2 .text a:hover{
+    color: red;
+}
+/* câu hỏi thường gặp */
+.cauhoi{
+    margin-left: 10px;
+}
+.cauhoi .content1{
+    background-color: #41B145;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    color: aliceblue;
+}
+.cauhoi .content2{
+    margin: 20px;
+    display: flex;
+    border-bottom:1px dashed #41B145 ;
+}
+.cauhoi .content2 .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+}
+.foot{
+    text-align: right;
+    font-size: 20px;
+}
+.foot a{
+    color: red;
+}
+.foot a:hover{
+    color: #41B145;
+}
+/* Hỗ trợ */
+.hotro{
+    margin: 20px;
+    padding: 0 40p;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotro .item{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #41B145;
+    margin: 0 10px;
+}
+.hotro .item .content1{
+    background-color: #41B145;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    color: aliceblue;
+}
+.hotro .item .content1 a{
+    color: aliceblue;
+}
+.hotro .item .content2 img:hover{
+    opacity: 0.8;
+}
+.hotro .item .content2{
+    padding: 0;
+}
+.hotro .item .content2 img{
+    width: 80%;
+}
+/* liên hệ */
+.w-40{
+    width: 40%;
+}
+.w-20{
+    width: 20%;
+}
+.lienhe{
+    background-color: #41B145;
+    display: flex;
+}
+.lienhe .footer{
+    padding: 20px 20px;
+}
+.lienhe .footer p{
+    margin: 10px 10px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.lienhe .footer .footer1{
+    display: flex;
+}
+.lienhe .footer .footer1 a{
+    color: aliceblue;
+}
+.lienhe .footer .footer-border{
+    border: 1px dashed aliceblue;
+    padding-bottom: 10px ;
+}
+.lienhe .footer .footer-border .footer2 input{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    width: 20rem;
+    background-color: #b3d7b4;
+    color: #757575;
+}
+.lienhe .footer .footer-border .footer2 button{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    width: 5rem;
+    background-color: #1c731e;
+    color: aliceblue;
+}
+.lienhe .footer .footer-border .footer2 button:hover{
+    opacity: 0.8;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Trang 2: cho thue xe trọn gói ngắn hạn */
+/* phần menu */
+ul .indam{
+    background-color:#348e37;
+}
+/* Phần nội dung */
+.noidung1{
+    display: flex;
+}
+.w-70{
+    width: 70%;
+}
+.w-30{
+    width: 30%;
+}
+.noidung1-1{
+    margin: 1rem 5rem ;
+}
+.noidung1-1 .text-1 .text-1-1{
+    font-size: 25px;
+    color: #41B145;
+}
+.noidung1-1 .text-1 .text-1-1 a{
+    font-size: 25px;
+    color: #41B145;
+}
+.noidung1-1 .text-1 .text-1-1 a:hover{
+    color: red;
+}
+.noidung1-1 .text-1 .text-1-2{
+    font-size: 25px;
+    background-color: #41B145;
+    color: aliceblue;
+    padding: 0.5rem 0;
+    margin: 1rem 0;
+}
+.noidung1-1 .text-1 .text-1-2 p{
+    border-left:0.5rem solid aliceblue ;
+    padding-left:1rem ;
+    margin-left:1rem ;
+}
+.noidung1-1 .text-2{
+    margin-top: 20px;
+}
+.noidung1-1 .text-2 .text-2-1{
+    font-size: 20px;
+}
+.noidung1-1 .text-2 .text-2-2{
+    color: #41B145;
+    margin: 10px 0;
+}
+.noidung1-1 .text-2 .text-2-3 p{
+    margin: 10px 0;
+}
+.noidung1-1 .text-2 .text-2-4 table tr th,td{
+    padding: 10px;
+}
+.noidung1-1 .text-3{
+    margin: 20px 0;
+}
+.noidung1-1 .text-3 .text-3-1{
+    background-color: #003300;
+    color: aliceblue;
+    padding: 10px 0;
+}
+.noidung1-1 .text-3 .text-3-2 p{
+    background-color: #cccccc;
+    padding: 10px 0;
+    margin: 1px 0;
+}
+/* noi dung 2 */
+.noidung1-2{
+    margin: 20px;
+    padding: 0 40px;
+    justify-content: space-between;
+}
+.noidung1-2 .item{
+    margin: 20px 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #41B145;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Trang 3: Bảng giá */
+.noidung1 .capnhat{
+    margin: 30px 10px;
+    font-size: 20px;
+    color: red;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Trang 4: Điểm mạnh */
+.w-30{
+    width: 30%;
+}
+.w-60{
+    width: 60%;
+}
+.noidung1 .text-4{
+    margin: 20px 0;
+}
+.noidung1-1 .text-4-1{
+    margin: 10px;
+    font-size: 20px;
+    color: #41B145;
+}
+.noidung1-1 .text-4-2{
+    display: flex;
+    margin: 20px 0;
+}
+.noidung1-1 .text-4-2-2 p{
+    margin: 10px 0;
+    font-size: 18px;
+}
+.noidung1-1 .text-4-2-1{
+    margin: 0 10px;
+}
+.noidung1-1 .text-4-2-1 img{
+    width: 100%;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Trang 5: Tin tức */
+.w-25{
+    width: 25%;
+}
+.w-75{
+    width: 75%;
+}
+.noidung1-1 .text-8{
+    margin: 20px 0;
+    /* display: flex; */
+}
+.noidung1-1 .text-8-flex{
+    display: flex;
+}
+.noidung1-1 .text-8 .item-8{
+    display: flex;
+    margin-top: 20px;
+}
+.noidung1-1 .text-8 .text-8-1{
+    background-color: #39464f;
+    padding: 25px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: aliceblue;
+}
+.noidung1-1 .text-8 .text-8-2{
+    padding: 0 20px;    
+}
+.noidung1-1 .text-8 .text-8-2-1 a{
+    color: #41B145;       
+}
+.noidung1-1 .text-8 .text-8-2-1 a:hover{
+    color: red;       
+}
+.noidung1-1 .text-8 .text-8-2-2{
+    color: #b39999;
+    font-size: 14px;       
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Trang 6: Hỏi đáp */
+.noidung1-1 .text-7{
+    margin: 20px 0;
+}
+.noidung1-1 .text-7-1{
+    border-bottom:1px solid #41B145;
+    padding: 10px 0;
+}
+.noidung1-1 .text-7-2{
+    margin: 10px 0;
+    border-bottom:1px dashed #41B145 ;
+    display: flex;
+}
+.noidung1-1 .text-7-2 .text-7-2-2{
+    padding: 10px 20px;
+    font-size: 20px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Trang 7: Liên hệ */
+.noidung1-1 .text-5{
+    margin: 20px;
+}
+.noidung1-1 .text-5 .text-5-1{
+    font-size: 20px;
+    color: #1c731e;
+}
+.noidung1-1 .text-5 .text-5-2{
+    font-size: 19px;
+}
+.noidung1-1 .text-5 .text-5-3{
+    margin: 30px 0;
+    font-size: 20px;
+    background-color: #f3f8fe;
+}
+.noidung1-1 .text-5 .text-5-3 form{
+    border: 1px solid black;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Trang 8: Về chúng tôi */
+.noidung1-1 .text-6 table{
+    margin: 20px 0;
+}
+
