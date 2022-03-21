@@ -62,7 +62,8 @@ ul{
 }
 
 ul li{
-    padding: 10px 20px;
+    padding: 10px 10px;
+
 }
 ul li:hover{
     background-color:#348e37 ;
